@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/t_border"
+        android:padding="@dimen/pad20"
+        android:layout_margin="@dimen/margin16">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quiz3"
+            android:textSize="@dimen/txt25"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="16dp" />
+
+        <RadioButton
+            android:text="@string/q27"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt20"
+            android:id="@+id/radioButton" />
+
+        <RadioButton
+            android:text="@string/q30"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt20"
+            android:id="@+id/radioButton2" />
+
+        <RadioButton
+            android:text="@string/q36"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt20"
+            android:id="@+id/radioButton3" />
+
+        <RadioButton
+            android:text="@string/q45"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/txt20"
+            android:id="@+id/radioButton4" />
+
+    </LinearLayout>
+
+</ScrollView>

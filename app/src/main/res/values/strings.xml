@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">QuizApp</string>
+    <string name="rightImage">right images</string>
+    <string name="song">Song</string>
+    <string name="solveIt">solve it</string>
+    <string name="unblockMe">unblock me</string>
+    <string name="imagePuzzle">image puzzle</string>
+    <string name="color_red">red</string>
+
+    <string name="zagreb">Zagreb</string>
+    <string name="berlin">Berlin</string>
+    <string name="bern">Bern</string>
+    <string name="brussels">Brussels</string>
+    <string name="copenhagen">Copenhagen</string>
+    <string name="helsinki">Helsinki</string>
+    <string name="london">London</string>
+    <string name="luxembourg">Luxembourg</string>
+    <string name="oslo">Oslo</string>
+    <string name="paris">Paris</string>
+    <string name="rome">Rome</string>
+    <string name="vienna">Vienna</string>
+
+    <string name="songName">Song name</string>
+    <string name="artist">Artist</string>
+    <string name="play">Play</string>
+    <string name="stop">Stop</string>
+    <string name="submit">Submit</string>
+    <string name="nameOfThisSong">What is the name of this song?</string>
+    <string name="nameOfTheSinger">What is the name of the singer?</string>
+    <string name="quiz3">if 1 + 2 = 3\n      3 + 4 = 21\n      5 + 6 = 55\n  then 4 + 5 = ?</string>
+    <string name="q27">27</string>
+    <string name="q30">30</string>
+    <string name="q36">36</string>
+    <string name="q45">45</string>
+    <string name="startTime">0m:0s</string>
+    <string name="score">Score</string>
+
+</resources>

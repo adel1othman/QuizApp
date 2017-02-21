@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimaryDark">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/t_border"
+        android:padding="@dimen/pad10"
+        android:layout_margin="@dimen/margin16">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_gravity="center"
+            android:id="@+id/starsView">
+
+            <ImageView
+                android:layout_width="@dimen/starsWidth"
+                android:layout_height="@dimen/starsHeight"
+                android:layout_margin="@dimen/margin5"
+                android:src="@drawable/star"
+                tools:ignore="contentDescription"/>
+
+            <ImageView
+                android:layout_width="@dimen/starsWidth"
+                android:layout_height="@dimen/starsHeight"
+                android:layout_margin="@dimen/margin5"
+                android:src="@drawable/star"
+                tools:ignore="contentDescription"/>
+
+            <ImageView
+                android:layout_width="@dimen/starsWidth"
+                android:layout_height="@dimen/starsHeight"
+                android:layout_margin="@dimen/margin5"
+                android:src="@drawable/star"
+                tools:ignore="contentDescription"/>
+
+            <ImageView
+                android:layout_width="@dimen/starsWidth"
+                android:layout_height="@dimen/starsHeight"
+                android:layout_margin="@dimen/margin5"
+                android:src="@drawable/star"
+                tools:ignore="contentDescription"/>
+
+            <ImageView
+                android:layout_width="@dimen/starsWidth"
+                android:layout_height="@dimen/starsHeight"
+                android:layout_margin="@dimen/margin5"
+                android:src="@drawable/star"
+                tools:ignore="contentDescription"/>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="@dimen/bigImage"
+            android:layout_height="@dimen/bigImage"
+            android:layout_marginTop="@dimen/margin16"
+            android:layout_gravity="center"
+            android:id="@+id/smiley"
+            tools:ignore="contentDescription" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/margin16"
+            android:layout_gravity="center"
+            android:textStyle="bold"
+            android:textColor="@android:color/white"
+            android:id="@+id/scoreTxtView"/>
+
+    </LinearLayout>
+
+</ScrollView>

@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/mainImgPzl"
+    android:background="@color/colorPrimaryDark">
+
+    <ImageView
+        android:layout_width="@dimen/dp262.442"
+        android:layout_height="@dimen/dp305"
+        android:layout_centerInParent="true"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/android_full_bnw"
+        android:id="@+id/androidFull"/>
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android2"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android2"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android14"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android14"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android17"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android17"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/android14"
+        android:layout_toEndOf="@+id/android14" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android11"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android11"
+        android:layout_alignParentTop="true"
+        android:layout_toRightOf="@+id/android17"
+        android:layout_toEndOf="@+id/android17" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android3"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android3"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/android2"
+        android:layout_toStartOf="@+id/android2" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android19"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android19"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/android3"
+        android:layout_toStartOf="@+id/android3" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android12"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android12"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android8"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android8"
+        android:layout_alignBottom="@+id/android5"
+        android:layout_toRightOf="@+id/android18"
+        android:layout_toEndOf="@+id/android18" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android18"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android18"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android5"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android5"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/android12"
+        android:layout_toStartOf="@+id/android12" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android16"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android16"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/android8"
+        android:layout_toEndOf="@+id/android8" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android4"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android4"
+        android:layout_alignParentBottom="true"
+        android:layout_toLeftOf="@+id/android5"
+        android:layout_toStartOf="@+id/android5" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android20"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android20"
+        android:layout_centerVertical="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android10"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android10"
+        android:layout_alignBottom="@+id/androidFull"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android15"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android15"
+        android:layout_alignTop="@+id/androidFull"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android7"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android7"
+        android:layout_below="@+id/android11"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android6"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android6"
+        android:layout_above="@+id/android16"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android9"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android9"
+        android:layout_alignBottom="@+id/androidFull"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android13"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android13"
+        android:layout_alignTop="@+id/androidFull"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <ImageView
+        android:layout_width="@dimen/dp65.6105"
+        android:layout_height="@dimen/dp61"
+        app:srcCompat="@drawable/android1"
+        android:contentDescription="@string/app_name"
+        android:id="@+id/android1"
+        android:layout_alignTop="@+id/android20"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+</RelativeLayout>
