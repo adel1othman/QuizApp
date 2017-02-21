@@ -27,6 +27,7 @@ import static com.example.android.quizapp.ImagePuzzleFragment.android18;
 import static com.example.android.quizapp.ImagePuzzleFragment.android19;
 import static com.example.android.quizapp.ImagePuzzleFragment.android20;
 import static com.example.android.quizapp.ImagePuzzleFragment.androidFull;
+import static com.example.android.quizapp.R.id.main;
 
 /**
  * Created by Adel on 2/16/2017.
@@ -302,47 +303,29 @@ public class OnTouchImagePuzzle implements View.OnTouchListener {
                             && !android7.isEnabled() && !android8.isEnabled() && !android9.isEnabled() && !android10.isEnabled() && !android11.isEnabled() && !android12.isEnabled()
                             && !android13.isEnabled() && !android14.isEnabled() && !android15.isEnabled() && !android16.isEnabled() && !android17.isEnabled() && !android18.isEnabled()
                             && !android19.isEnabled() && !android20.isEnabled()){
-                        final MediaPlayer mediaPlayer = MediaPlayer.create(mParent.getContext(), R.raw.winner);
-                            mediaPlayer.start();
-                        mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
-                            @Override
-                            public void onCompletion(MediaPlayer mp) {
-                                mediaPlayer.release();
-                            }
-                        });
 
-                        ((RelativeLayout) mParent).removeView(android1);
-                        ((RelativeLayout) mParent).removeView(android2);
-                        ((RelativeLayout) mParent).removeView(android3);
-                        ((RelativeLayout) mParent).removeView(android4);
-                        ((RelativeLayout) mParent).removeView(android5);
-                        ((RelativeLayout) mParent).removeView(android6);
-                        ((RelativeLayout) mParent).removeView(android7);
-                        ((RelativeLayout) mParent).removeView(android8);
-                        ((RelativeLayout) mParent).removeView(android9);
-                        ((RelativeLayout) mParent).removeView(android10);
-                        ((RelativeLayout) mParent).removeView(android11);
-                        ((RelativeLayout) mParent).removeView(android12);
-                        ((RelativeLayout) mParent).removeView(android13);
-                        ((RelativeLayout) mParent).removeView(android14);
-                        ((RelativeLayout) mParent).removeView(android15);
-                        ((RelativeLayout) mParent).removeView(android16);
-                        ((RelativeLayout) mParent).removeView(android17);
-                        ((RelativeLayout) mParent).removeView(android18);
-                        ((RelativeLayout) mParent).removeView(android19);
-                        ((RelativeLayout) mParent).removeView(android20);
-                        androidFull.setImageResource(R.drawable.android_full_colored);
-                        ImageView winImage = new ImageView(mParent.getContext());
-                        RelativeLayout.LayoutParams winParams = (RelativeLayout.LayoutParams)mView.getLayoutParams();
-                        winImage.setImageResource(R.drawable.star);
-                        winParams.height = 150;
-                        winParams.width = 150;
-                        winParams.leftMargin = mParent.getWidth()/2 - winParams.width/2;
-                        winParams.topMargin = mParent.getHeight()/2 - winParams.height/2;
-                        winImage.setLayoutParams(winParams);
-                        ((RelativeLayout) mParent).addView(winImage);
-                        winImage.setOnTouchListener(new OnDragTouchListener(winImage));
-                        winImage.bringToFront();
+                        if (winImagePuzzle != 1){
+                            RelativeLayout main = (RelativeLayout)mParent.findViewById(R.id.mainImgPzl);
+
+                            final MediaPlayer mediaPlayer = MediaPlayer.create(mParent.getContext(), R.raw.winner);
+                            mediaPlayer.start();
+                            mediaPlayer.setOnCompletionListener(new MediaPlayer.OnCompletionListener() {
+                                @Override
+                                public void onCompletion(MediaPlayer mp) {
+                                    mediaPlayer.release();
+                                }
+                            });
+
+                            ImageView winImage = new ImageView(main.getContext());
+                            RelativeLayout.LayoutParams winParams = new RelativeLayout.LayoutParams(150, 150);
+                            winImage.setImageResource(R.drawable.star);
+                            winImage.setLayoutParams(winParams);
+                            winImage.setX(main.getWidth()/2 - winParams.width/2);
+                            winImage.setY(main.getHeight()/2 - winParams.height/2);
+                            main.addView(winImage);
+                            winImage.setOnTouchListener(new OnTouchImagePuzzle(winImage));
+                            winImage.bringToFront();
+                        }
 
                         winImagePuzzle = 1;
                     }
