@@ -27,7 +27,6 @@ import static com.example.android.quizapp.ImagePuzzleFragment.android18;
 import static com.example.android.quizapp.ImagePuzzleFragment.android19;
 import static com.example.android.quizapp.ImagePuzzleFragment.android20;
 import static com.example.android.quizapp.ImagePuzzleFragment.androidFull;
-import static com.example.android.quizapp.R.id.main;
 
 /**
  * Created by Adel on 2/16/2017.
